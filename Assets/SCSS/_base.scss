@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
+
+.book-card{
+  margin: 1rem;
+}
+
+.card-title{
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.card-author{
+  font-size: 1rem;
+  padding: .5rem;
+}
+
+.card-content{
+  font-size: .6rem;
+}

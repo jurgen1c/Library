@@ -7,6 +7,24 @@
   <title>Library</title>
 </head>
 <body>
-  <script src="./Assets/Js/app.js"></script>
+  <main>
+    <div class="form-wrap">
+      <button type="button" onclick="showForm()">Add book</button>
+      <form class="hide" action="">
+        <input class="b-title" type="text">
+        <input class="b-author" type="text">
+        <input class="b-pages" type="text">
+        <select name="read" id="select1">
+          <option value="yes">Read</option>
+          <option value="no">Not Read</option>
+        </select>
+        <button type="button" onclick="createBook()">Submit</button>
+      </form>
+    </div>
+    <div class="lib-wrap">
+      
+    </div>
+  </main>
+  <script src="./Assets/JS/app.js"></script>
 </body>
 </html>
