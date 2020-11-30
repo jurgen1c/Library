@@ -21,10 +21,12 @@ library.push(book2);
 
 function createBook() {
   const book = new Book();
-  book.title = tinput;
-  book.author = ainput;
+  book.title = tinput.value;
+  book.author = ainput.value;
+  book.numpages = ninput.value;
   library.push(book);
   form.className = 'hide';
+  showLibrary();
 }
 
 function showForm() {
@@ -32,6 +34,9 @@ function showForm() {
 }
 
 function showLibrary() {
+  while (libWrap.firstChild) {
+    libWrap.removeChild(libWrap.firstChild);
+  } 
   for (let i = 0; i < library.length; i += 1) {
     const bookCard = document.createElement('div');
     const btitle = document.createElement('h2');
@@ -46,12 +51,20 @@ function showLibrary() {
     asubtitle.setAttribute('class', 'card-author');
     content.classList = 'card-content';
 
-
+    let btn = document.createElement('button');
+    btn.innerHTML = 'Delete Book';
+    btn.setAttribute('onclick', `deleteBook(${i})`);
     bookCard.appendChild(btitle);
     bookCard.appendChild(asubtitle);
     bookCard.appendChild(content);
+    bookCard.appendChild(btn);
     libWrap.appendChild(bookCard);
   }
+}
+
+function deleteBook(idx){
+  library.splice(idx, 1);
+  showLibrary();
 }
 
 showLibrary();
