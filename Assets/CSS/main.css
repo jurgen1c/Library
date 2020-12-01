@@ -1,1 +1,23 @@
-/* No CSS */
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+form { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.form-wrap { margin: 0 auto; text-align: center; width: auto; }
+
+.form-wrap h1 { font-size: 3rem; margin: 2rem 0; }
+
+.btn { border-radius: 0 5px 0 5px; padding: 0.5rem; font-size: 0.7rem; border: none; outline: none; background: #3131da; margin: 0.7rem; }
+
+.show { display: block; }
+
+.hide { display: none; }
+
+.lib-wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row wrap; flex-flow: row wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: 2rem 0 0 0; }
+
+.book-card { margin: 1rem; width: 20%; border: 1px solid black; border-radius: 0 20px 0 20px; }
+
+.card-title { font-size: 2rem; padding: 2rem; width: auto; }
+
+.card-author { font-size: 1rem; padding: 0.5rem; }
+
+.card-content { font-size: 0.6rem; margin: 0.5rem; }
