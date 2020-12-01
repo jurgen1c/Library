@@ -32,7 +32,7 @@ function showLibrary() {
     const asubtitle = document.createElement('h3');
     const content = document.createElement('p');
     btitle.innerText = library[i].title;
-    asubtitle.innerText = 'Author: ' + library[i].author.toUpperCase();
+    asubtitle.innerText = `Author: ${library[i].author.toUpperCase()}`;
     content.innerHTML = `Pages: ${library[i].numpages} ${library[i].read}`;
 
     bookCard.setAttribute('class', 'book-card');
