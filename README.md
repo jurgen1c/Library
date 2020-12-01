@@ -1,29 +1,9 @@
-# Library
-![](https://img.shields.io/badge/Microverse-blueviolet)
+#	PROJECT: LIBRARY
 
 
-> in this repo a book library will be built using Javascript 
+> In this project, a book library was built using Javascript DOM and HTML.
 
-## Concept
->  The concept behind this project is to combat the slew of fake news nad general mistrust they have created in the publlic eye. To achieve this my app require any user to add atleast one source, though more can be added, to justify their articles content, this can be a video, audio or pdf. Further more users can create reviews for articles either verifying whats is stated or exposeing it as misinformation, all reviews can have attached files as well. Finally user may vote for articles with good verified content to promote a more secure article heirarchy. 
-## Usage
-
-- This project intends to practice my skills building a full working MVP;
-- Prepare data architecture documentation;
-- Working with deployment to Heroku.
-- Working Amazon S3 services<br>
-
-## Live Demo
-
-[Project live website](https://crowd-sourced-media.herokuapp.com/)
-## 🛠 Getting Started
-
-> To get a local copy up and running follow these simple example steps.
-
-- Go to the main page of the repo.
-- Copy this Code `https://github.com/jurgen1c/CS-Media.git`
-
-
+![Page](Assets/images/js-library.png)
 
 
 ### 📝 Setup
@@ -32,63 +12,19 @@
  
  - Copy this code : 
         ```
-        git clone https://github.com/jurgen1c/CS-Media.git
+        git clone git@github.com:jurgen1c/Library.git
         ```
- - Copy this code to install the gems :
-         ```
-        bundle install
-        ```
- - Copy this code to migrate th db :
- 
-        ```
-        rails db:create && rails db:migrate && rails db:seed
-               
-        
-- Visit `http://localhost:3000`
 
-### 📝 What you will find:
-  1. The user logs in to the app, Use: `sanad@sandoog.com` as email, and `123456` as password :)
-   
-![](app/assets/images/home.png)
+-	Open index.html with live-server
 
-  2. The user is presented with the homepage that includes:
-       - Top menu with links and search.
-       - *Popular Articles* carousel in the centre .
-       - Categories with backgrounds.
-       - Categories pills with articles ordered by most recent
-
-![](app/assets/images/article.png)
-    
-  3. The *Article* section includes:
-       - Nav tabs
-       - First tab displays article content and comments + comment form
-       - Second Article Sources
-       - Third article reviews and new review form
-       - Article author and info
-
-![](app/assets/images/user.png)
-
-  4. The user profile includes
-       - User info
-       - Followers
-       - User Articles
-   
-### Automated Tests
-
-- In root directory copy this into your terminal:
-            ```
-           bundle exec rspec
-            ```
-- All the test should pass   
 
 ### Build With
 
-- Ruby 2.7.1
-- Ruby on Rails 6.0.3
+-	HTML
+- JavaScript
+-	SASS  
 
-### Deployed On:
-- Heroku
-- Amazon S3         
+### Check out the live demo [here](https://rawcdn.githack.com/jurgen1c/Library/f2897184c363e83963dacff870e4ae809098bebf/index.html)     
 
 ## 👤 Authors
 
@@ -97,6 +33,13 @@
 
 - Github: [@jurgen1c](https://github.com/jurgen1c)
 - LinkedIn: [jurgen-clausen](https://www.linkedin.com/in/jurgen-clausen-2740061a9/)
+
+
+👤 **Sunday Uche Ezeilo**
+
+- Github: [@sundayezeilo](https://github.com/ezeilo-su)
+- Twitter: [@SundayEzeilo](https://twitter.com/SundayEzeilo)
+- Linkedin: [Sunday Ezeilo](https://www.linkedin.com/in/sunday-ezeilo-a6a67664/)
 
 
 ## 🤝 Contributing
