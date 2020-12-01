@@ -59,14 +59,15 @@ function showLibrary() {
   }
 }
 
-function createBook() {
-  const book = new Book();
-  book.title = tinput.value;
-  book.author = ainput.value;
-  book.numpages = ninput.value;
-  library.push(book);
-  form.className = 'hide';
-  showLibrary();
+function addBookToLibrary() {
+  if (tinput.value === '' || ainput.value === '' || ninput.value === '') {
+    alert('All form fields must be filled!');
+  } else {
+    const book = new Book(tinput.value, ainput.value, ninput.value);
+    library.push(book);
+    form.className = 'hide';
+    showLibrary();
+  }
 }
 
 function readStatus(b) {
