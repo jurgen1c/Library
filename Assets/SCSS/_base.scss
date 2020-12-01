@@ -1,31 +1,69 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.show{
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-wrap {
+  margin: 0 auto;
+  text-align: center;
+  width: auto;
+
+  h1 {
+    font-size: 3rem;
+    margin: 2rem 0;
+  }
+}
+
+.btn {
+  border-radius: 0 5px 0 5px;
+  padding: 0.5rem;
+  font-size: 0.7rem;
+  border: none;
+  outline: none;
+  background: rgb(49, 49, 218);
+  margin: 0.7rem;
+}
+
+.show {
   display: block;
 }
 
-.hide{
+.hide {
   display: none;
 }
 
-.book-card{
-  margin: 1rem;
+.lib-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 2rem 0 0 0;
 }
 
-.card-title{
+.book-card {
+  margin: 1rem;
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 0 20px 0 20px;
+}
+
+.card-title {
   font-size: 2rem;
   padding: 2rem;
+  width: auto;
 }
 
-.card-author{
+.card-author {
   font-size: 1rem;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
-.card-content{
-  font-size: .6rem;
+.card-content {
+  font-size: 0.6rem;
+  margin: 0.5rem;
 }
